@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
 
     public void SaveHighScore()
     {
-        string path = "data.txt";
+        string path = Application.persistentDataPath + "data.txt";
         StreamWriter file = new StreamWriter(path, false);
         file.WriteLine(highsScore.ToString());
         file.Close();
@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
 
     public int LoadHighScore()
     {
-        string path = "data.txt";
+        string path = Application.persistentDataPath + "data.txt";
         if (File.Exists(path))
         {
             StreamReader file = new StreamReader(path);
