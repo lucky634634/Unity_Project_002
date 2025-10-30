@@ -2,8 +2,9 @@
 
 ## Start Menu
 
-![startmenu](./Docs/startmenu.png)
+![startmenu](./Docs/StartMenu.png)
 
 ## Gameplay
 
 ![gameplay](./Docs/Gameplay.png)
+
